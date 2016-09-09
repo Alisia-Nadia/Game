@@ -110,7 +110,7 @@ public class Adventure
                      Challenges(challenges);
            }
        else
-           {write("I don't know if I your decision shoud make me  happy or sad ");
+           {write("I don't know if I your decision should make me  happy or sad ");
             
             chances--;
             Chances(chances);
