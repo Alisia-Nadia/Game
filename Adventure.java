@@ -91,7 +91,7 @@ public class Adventure
          {write("Are you cheating?Because you are right again. ");
           
           challenges--;
-          Fine();
+          
           Challenges(challenges);
           }
        else
@@ -107,6 +107,7 @@ public class Adventure
        if(choice.equals(choice1))
           {write("When I heard you singing I started to regret my decision.If someone ever told you that you could sing he/she was lying.You are terrible.");
                      challenges--;
+                     Challenges(challenges);
            }
        else
            {write("I don't know if I your decision shoud make me  happy or sad ");
@@ -118,7 +119,7 @@ public class Adventure
                  Gameover();
             }
        write("The next quest and the most importan one.");
-       write("You'll have to write for 1 time: I saw Susie sitting in a shoe shine shop.");
+       write("You'll have to write : I saw Susie sitting in a shoe shine shop.");
        choice=br.readLine();
        if(choice.equals(choice1))
           susie= br.readLine();       
