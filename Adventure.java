@@ -70,7 +70,7 @@ public class Adventure
       choice=br.readLine();
       
       if(choice.equals(choice1))
-         {write("I am impressed by your courage.Stay calm you passedtim the quest.I was only testing you.");
+         {write("I am impressed by your courage.Stay calm you passed the quest.I was only testing you.");
         
          challenges--;
          Challenges(challenges);
@@ -102,10 +102,10 @@ public class Adventure
               if(chances==0)
                  Gameover();
              }
-       write("Now you are going to have to dress like a mermaid and go outside to sing.\nRemember you can refuse the quest");
+       write("Now you are going to have to dress like a mermaid and go outside to sing.\nRemember you can refuse the quest.");
        choice=br.readLine();
        if(choice.equals(choice1))
-          {write("When I heard you singing I started to regret my decision.If someone ever told you that you could sing he/she was lying.You are terrible.");
+          {write("When you started to sing I began to regret my decision.If someone ever told you that you could sing he/she was lying.You are terrible.");
                      challenges--;
                      Challenges(challenges);
            }
