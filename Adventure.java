@@ -25,7 +25,7 @@ public class Adventure
       write("Hello mortal,who are you and what brings you in the land of magic?\nDo you maybe want me to tell you the future or do you want to find the answer to a question?");
       /*Give the name
        And the reason
-       The reason my be future or answer.
+       The reason may be future or answer.
       */
       name=br.readLine();
       reason=br.readLine();
