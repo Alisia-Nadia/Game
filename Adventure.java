@@ -38,7 +38,7 @@ public class Adventure
                write("Do you thing you are strong enough to pass all my tests?\n Are you going to fight or are you going to run?");
                choice=br.readLine();
                if(choice.equals(choice1))
-                     write("Hahaha!I don't if you are really brave or really stupid.But I accept you answer.Let's begin.");
+                     write("Hahaha!I don't if you are really brave or really stupid.But I accept your answer.Let's begin.");
                       
                 else
                     if(choice.equals(choice2))
